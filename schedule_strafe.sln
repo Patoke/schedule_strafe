@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schedule_strafe", "schedule_strafe\schedule_strafe.csproj", "{518A29AB-CF2D-4F17-BB73-639C1FBEE1EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{518A29AB-CF2D-4F17-BB73-639C1FBEE1EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{518A29AB-CF2D-4F17-BB73-639C1FBEE1EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{518A29AB-CF2D-4F17-BB73-639C1FBEE1EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{518A29AB-CF2D-4F17-BB73-639C1FBEE1EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F67E0C23-02D3-4F94-A15F-07021BCB43A8}
+	EndGlobalSection
+EndGlobal
