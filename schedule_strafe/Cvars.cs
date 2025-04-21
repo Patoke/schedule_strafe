@@ -24,6 +24,8 @@ namespace schedule_strafe
         public static MelonPreferences_Entry<float> cl_speedcounter_offset;
         public static MelonPreferences_Entry<bool> cl_speedcounter;
 
+        public static MelonPreferences_Entry<bool> sv_autobunnyhopping;
+
         public static void SetupCvars()
         {
             cvars_category = MelonPreferences.CreateCategory("ScheduleStrafe");
@@ -40,6 +42,8 @@ namespace schedule_strafe
 
             cl_speedcounter_offset = cvars_category.CreateEntry<float>("cl_speedcounter_offset", 100f, "Vertical offset of the speed counter to the center of the screen", (string)null, false, false, (ValueValidator)null, (string)null);
             cl_speedcounter = cvars_category.CreateEntry<bool>("cl_speedcounter", true, "Should display the speed counter", (string)null, false, false, (ValueValidator)null, (string)null);
+
+            sv_autobunnyhopping = cvars_category.CreateEntry<bool>("sv_autobunnyhopping", true, "Should we automatically bunnyhop", (string)null, false, false, (ValueValidator)null, (string)null);
         }
     }
 }

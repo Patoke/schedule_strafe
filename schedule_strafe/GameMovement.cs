@@ -207,7 +207,8 @@ namespace schedule_strafe
             }
 
             // keep game's jump routine for the cool funkyness of it
-            if (__instance.canMove && __instance.canJump && isGrounded && !___isJumping && !GameInput.IsTyping && !Singleton<PauseMenu>.Instance.IsPaused && GameInput.GetButton(GameInput.ButtonCode.Jump))
+            bool didPressJump = Cvars.sv_autobunnyhopping.Value ? GameInput.GetButton(GameInput.ButtonCode.Jump) : GameInput.GetButtonDown(GameInput.ButtonCode.Jump);
+            if (__instance.canMove && __instance.canJump && isGrounded && !___isJumping && !GameInput.IsTyping && !Singleton<PauseMenu>.Instance.IsPaused && didPressJump)
             {
                 ___isJumping = true;
 
